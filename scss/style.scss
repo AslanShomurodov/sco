@@ -1,18 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
+
     background-color: #212122;
-    .header-menu{
-        max-width: 1990px;
-        height: 96px;
-        background: #FFF;
-        .scoot-img{
-            margin-top: 34px;
-            margin-left: 169px;
+
+    .wrapper {
+
+        display: flex;
+        justify-content: center;
+        // width: 100vh;
+        background-color: aqua;
+
+        .header-menu {
+            position: absolute;
+            width: 1440px;
+            height: 96px;
+            background: #FFF;
+
+            .scoot-img {
+                position: relative;
+                margin-top: 34px;
+                margin-left: 50px;
+            }
+
+            .a-form {
+                position: relative;
+                width: 250px;
+                height: 25px;
+                background-color: #FFF;
+                margin-top: -30px;
+                margin-left: 339px;
+
+                ul {
+                    display: flex;
+                    column-gap: 32px;
+                    list-style: none;
+
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: #939CAA;
+                            font-family: Space Mono;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+
+                        }
+                    }
+                }
+            }
+
+            .head-button {
+                position: relative;
+                padding: 14px 39px;
+                color: #FFF;
+                text-align: center;
+                font-family: Space Mono;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px;
+                /* 166.667% */
+                background: #FCB72B;
+                border: 0;
+                margin-left: 1095px;
+                margin-top: -300px;
+            }
+        }
+
+        .mein-hit {
+            display: flex;
+            justify-content: center;
+
+            .mein-img {
+                width: 1440px;
+                height: 650px;
+                .mein-h1 {
+                    width: 500px;
+                    color: #FFF;
+                    font-family: Space Mono;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 56px;
+                    letter-spacing: -2.5px;
+                }
+            }
+
+            .mein-h1 {
+                width: 500px;
+                color: #FFF;
+                font-family: Space Mono;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 56px;
+                letter-spacing: -2.5px;
+            }
         }
     }
 }
