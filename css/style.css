@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #212122;
+  background-color: #f9f9ff;
 }
 body .wrapper {
   display: flex;
@@ -546,4 +546,198 @@ body .footer .min-footer .a-form .business-network ul li {
 }
 body .footer .min-footer .a-form .business-network ul li a {
   text-decoration: none;
+}
+
+@media (max-width: 1220px) {
+  body {
+    background-color: #ffffff;
+  }
+  body .wrapper {
+    justify-content: center;
+    flex-direction: row;
+    height: 3648px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 530px;
+  }
+  body .wrapper .header-menu {
+    position: absolute;
+    width: 1400px;
+    height: 96px;
+    background: #ffffff;
+    margin-left: 0px;
+  }
+  body .wrapper .header-menu .scoot-img {
+    position: relative;
+    margin-top: 34px;
+    margin-left: 50px;
+  }
+  body .wrapper .header-menu .a-form {
+    position: relative;
+    width: 230px;
+    height: 25px;
+    background-color: #FFF;
+    margin-top: -30px;
+    margin-left: 280px;
+  }
+  body .wrapper .header-menu .a-form ul {
+    display: flex;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    list-style: none;
+  }
+  body .wrapper .header-menu .a-form ul li a {
+    text-decoration: none;
+    color: #939CAA;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .wrapper .header-menu .head-button {
+    position: relative;
+    padding: 14px 39px;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 166.667% */
+    background: #FCB72B;
+    border: 0;
+    margin-left: 1070px;
+    margin-top: -220px;
+  }
+  body .wrapper .mein-hit {
+    display: flex;
+    justify-content: center;
+  }
+  body .wrapper .mein-hit .picture-element .mein-img {
+    width: 1390px;
+    height: 650px;
+  }
+  body .wrapper .mein-hit .picture-element .mein-img .mein-h1 {
+    width: 500px;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+  body .wrapper .mein-hit .picture-element .mein-h1 {
+    position: relative;
+    width: 500px;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    margin-left: 165px;
+    margin-top: -453px;
+  }
+  body .wrapper .mein-hit .picture-element .line-img {
+    margin-top: 89px;
+    margin-right: 50px;
+  }
+  body .wrapper .mein-hit .picture-element .mein-h2 {
+    width: 405px;
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 260px;
+    margin-top: -55px;
+  }
+  body .wrapper .mein-hit .picture-element .line-right-img {
+    margin-left: 705px;
+    margin-top: -55px;
+  }
+  body .wrapper .mein-hit .picture-element .circle {
+    margin-top: -150px;
+    margin-left: 1180px;
+  }
+  body .wrapper .mein-hit .picture-element .mein-button {
+    position: relative;
+    padding: 14px 39px;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 166.667% */
+    background: #FCB72B;
+    border: 0;
+    margin-left: -1180px;
+    margin-top: -100px;
+  }
+  body .wrapper .middle {
+    width: 1275px;
+    height: 291px;
+    background-color: #fff;
+    margin-top: 650px;
+    margin-left: -1503px;
+  }
+  body .wrapper .middle .line {
+    margin-top: 48px;
+    margin-left: 10px;
+    width: 974px;
+    height: 15px;
+    background-color: #939CAA;
+  }
+  body .wrapper .middle .phone-img {
+    margin-left: 145px;
+    margin-top: -50px;
+  }
+  body .wrapper .middle .motorcycle-img {
+    margin-left: 315px;
+    margin-top: -50px;
+  }
+  body .wrapper .middle .delivery-img {
+    margin-left: 305px;
+    margin-top: -50px;
+  }
+  body .wrapper .middle .written-form1 {
+    width: 350px;
+    height: 155px;
+    background-color: transparent;
+    margin-left: 145px;
+    margin-top: 20px;
+  }
+  body .wrapper .middle .written-form1 .written-h1 {
+    width: 350px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .wrapper .middle .written-form1 .written-p1 {
+    width: 350px;
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 27px;
+  }
+  body .wrapper .middle .picture-girl {
+    margin-top: 0;
+    margin-left: 6800px;
+  }
+  body .wrapper .middle .city-img {
+    margin-left: 100px;
+  }
 }/*# sourceMappingURL=style.css.map */
