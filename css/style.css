@@ -14,14 +14,14 @@ body .wrapper {
   justify-content: center;
   flex-direction: row;
   height: 3648px;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
 }
 body .wrapper .header-menu {
   position: absolute;
   width: 1440px;
   height: 96px;
   background: #FFF;
-  margin-left: 159px;
+  margin-left: 0px;
 }
 body .wrapper .header-menu .scoot-img {
   position: relative;

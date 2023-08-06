@@ -18,14 +18,14 @@ body {
         flex-direction: row;
         height: 3648px;
         // width: 100vh;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
 
         .header-menu {
             position: absolute;
             width: 1440px;
             height: 96px;
             background: #FFF;
-            margin-left: 159px;
+            margin-left: 0px;
 
             .scoot-img {
                 position: relative;
@@ -625,4 +625,7 @@ body {
         }
 
     }
+}
+@media (max-width: 1220px){
+
 }
