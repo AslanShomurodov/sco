@@ -348,25 +348,24 @@ body .mein-form2 .something-inside2 .inside-button2 {
   margin-top: 40px;
   border: 0;
 }
-body .mein-form {
+body .mein-form3 {
   width: 1440px;
   height: 445px;
   background-color: #fff;
-  margin-top: 945px;
-  margin-left: -1275px;
+  margin-top: 90px;
 }
-body .mein-form .picture-girl {
+body .mein-form3 .male-img {
   margin-top: 0;
-  margin-left: 700px;
+  margin-left: 829px;
 }
-body .mein-form .something-inside {
+body .mein-form3 .something-inside3 {
   width: 445px;
   height: 313px;
   background-color: #fff;
   margin-top: -380px;
   margin-left: 165px;
 }
-body .mein-form .something-inside .inside-h1 {
+body .mein-form3 .something-inside3 .inside-h3 {
   width: 445px;
   height: 96px;
   color: #495567;
@@ -377,7 +376,7 @@ body .mein-form .something-inside .inside-h1 {
   line-height: 48px;
   letter-spacing: -2.143px;
 }
-body .mein-form .something-inside .inside-p1 {
+body .mein-form3 .something-inside3 .inside-p3 {
   width: 445px;
   color: #939CAA;
   font-family: Lexend Deca;
@@ -388,7 +387,7 @@ body .mein-form .something-inside .inside-p1 {
   /* 166.667% */
   margin-top: 24px;
 }
-body .mein-form .something-inside .inside-button {
+body .mein-form3 .something-inside3 .inside-button3 {
   width: 180px;
   height: 53px;
   background: #FCB72B;
@@ -402,4 +401,149 @@ body .mein-form .something-inside .inside-button {
   /* 166.667% */
   margin-top: 40px;
   border: 0;
+}
+body .footer {
+  width: 1440px;
+  height: 396px;
+  background-color: red;
+  margin-top: 470px;
+}
+body .footer .big-footer {
+  position: absolute;
+  width: 1440px;
+  height: 300px;
+  background: #495567;
+}
+body .footer .big-footer .AppStore-form {
+  position: relative;
+  width: 159px;
+  height: 56px;
+  border-radius: 4px;
+  background: #E5ECF4;
+  margin-left: 916px;
+  margin-top: -70px;
+  z-index: 999;
+  background-image: url(../img/apple-img.svg);
+  background-repeat: no-repeat;
+  background-position: 16px 14px;
+}
+body .footer .big-footer .AppStore-form .appstore-p1 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.446px;
+  padding-top: 8px;
+  margin-left: 52px;
+}
+body .footer .big-footer .AppStore-form .appstore-p2 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 120% */
+  letter-spacing: -0.893px;
+  margin-left: 52px;
+}
+body .footer .big-footer .playmarket-form {
+  position: relative;
+  width: 159px;
+  height: 56px;
+  border-radius: 4px;
+  background: #E5ECF4;
+  margin-left: 190px;
+  margin-top: -50px;
+  z-index: 999;
+  background-image: url(../img/playmarket-img.svg);
+  background-repeat: no-repeat;
+  background-position: 16px 14px;
+}
+body .footer .big-footer .playmarket-form .appstore-h1 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.446px;
+  padding-top: 8px;
+  margin-left: 52px;
+}
+body .footer .big-footer .playmarket-form .appstore-h2 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 120% */
+  letter-spacing: -0.893px;
+  margin-left: 52px;
+}
+body .footer .footer-p1 {
+  width: 415px;
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* 100% */
+  letter-spacing: -2.143px;
+  margin-left: 165px;
+  margin-top: -200px;
+}
+body .footer .min-footer {
+  width: 1440px;
+  height: 96px;
+  background: #333A44;
+  margin-top: 114px;
+  background-image: url(../img/scoot-footer.svg);
+  background-repeat: no-repeat;
+  background-position: 168px 35px;
+}
+body .footer .min-footer .a-form {
+  width: 249px;
+  height: 25px;
+  background-color: transparent;
+  padding-top: 5px;
+  margin-left: 335px;
+}
+body .footer .min-footer .a-form ul {
+  display: flex;
+  list-style: none;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  margin-top: 36px;
+}
+body .footer .min-footer .a-form ul li a {
+  color: #939CAA;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
+  text-decoration: none;
+}
+body .footer .min-footer .a-form .business-network {
+  width: 120px;
+  height: 24px;
+  background-color: red;
+  list-style: none;
+  margin-left: 1155px;
+}
+body .footer .min-footer .a-form .business-network ul {
+  list-style: none;
+  margin-left: 1155px;
+}
+body .footer .min-footer .a-form .business-network ul li {
+  list-style: none;
+}
+body .footer .min-footer .a-form .business-network ul li a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
