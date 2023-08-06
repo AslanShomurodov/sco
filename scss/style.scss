@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -14,6 +15,8 @@ body {
 
         display: flex;
         justify-content: center;
+        flex-direction: row;
+        height: 3648px;
         // width: 100vh;
         background-color: aqua;
 
@@ -22,6 +25,7 @@ body {
             width: 1440px;
             height: 96px;
             background: #FFF;
+            margin-left: 159px;
 
             .scoot-img {
                 position: relative;
@@ -79,10 +83,27 @@ body {
             display: flex;
             justify-content: center;
 
-            .mein-img {
-                width: 1440px;
-                height: 650px;
+            .picture-element {
+
+                // position: absolute;
+                .mein-img {
+                    width: 1440px;
+                    height: 650px;
+
+                    .mein-h1 {
+                        width: 500px;
+                        color: #FFF;
+                        font-family: Space Mono;
+                        font-size: 56px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 56px;
+                        letter-spacing: -2.5px;
+                    }
+                }
+
                 .mein-h1 {
+                    position: relative;
                     width: 500px;
                     color: #FFF;
                     font-family: Space Mono;
@@ -91,18 +112,353 @@ body {
                     font-weight: 700;
                     line-height: 56px;
                     letter-spacing: -2.5px;
+                    margin-left: 165px;
+                    margin-top: -453px;
+                }
+
+                .line-img {
+                    margin-top: 89px;
+
+                }
+
+                .mein-h2 {
+                    width: 405px;
+                    color: #FFF;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    margin-left: 260px;
+                    margin-top: -55px;
+                }
+
+                .line-right-img {
+                    margin-left: 705px;
+                    margin-top: -55px;
+                }
+
+                .circle {
+                    margin-top: -150px;
+                    margin-left: 1253px;
+                }
+
+                .mein-button {
+                    position: relative;
+                    padding: 14px 39px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+                    /* 166.667% */
+                    background: #FCB72B;
+                    border: 0;
+                    margin-left: -1180px;
+                    margin-top: -100px;
+                    // padding-top: 10px;
+                }
+            }
+        }
+
+        .middle {
+            width: 1275px;
+            height: 291px;
+            background-color: #fff;
+            margin-top: 650px;
+            margin-left: -1603px;
+
+            .line {
+                margin-top: 48px;
+                width: 974px;
+                height: 15px;
+                background-color: #939CAA;
+            }
+
+            .phone-img {
+                margin-left: 145px;
+                margin-top: -50px;
+            }
+
+            .motorcycle-img {
+                margin-left: 315px;
+                margin-top: -50px;
+            }
+
+            .delivery-img {
+                margin-left: 305px;
+                margin-top: -50px;
+            }
+
+            .written-form1 {
+                width: 350px;
+                height: 155px;
+                background-color: transparent;
+                margin-left: 145px;
+                margin-top: 20px;
+
+                .written-h1 {
+                    width: 350px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -1.071px;
+                }
+
+                .written-p1 {
+                    width: 350px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    margin-top: 27px;
                 }
             }
 
-            .mein-h1 {
-                width: 500px;
-                color: #FFF;
+            .written-form2 {
+                width: 350px;
+                height: 155px;
+                background-color: transparent;
+                margin-left: 555px;
+                margin-top: -155px;
+
+                .written-h2 {
+                    width: 350px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -1.071px;
+                }
+
+                .written-p2 {
+                    width: 350px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    margin-top: 27px;
+                }
+            }
+
+            .written-form3 {
+                width: 350px;
+                height: 155px;
+                background-color: transparent;
+                margin-left: 970px;
+                margin-top: -155px;
+
+                .written-h3 {
+                    width: 350px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -1.071px;
+                }
+
+                .written-p3 {
+                    width: 350px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    margin-top: 27px;
+                }
+            }
+        }
+    }
+
+
+    .mein-form {
+        width: 1440px;
+        height: 445px;
+        background-color: #fff;
+        margin-top: 945px;
+        margin-left: -1275px;
+
+        .picture-girl {
+            margin-top: 0;
+            margin-left: 700px;
+        }
+
+        .something-inside {
+            width: 445px;
+            height: 313px;
+            background-color: #fff;
+            margin-top: -380px;
+            margin-left: 165px;
+
+            .inside-h1 {
+                width: 445px;
+                height: 96px;
+                color: #495567;
                 font-family: Space Mono;
-                font-size: 56px;
+                font-size: 48px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 56px;
-                letter-spacing: -2.5px;
+                line-height: 48px;
+                letter-spacing: -2.143px
+            }
+
+            .inside-p1 {
+                width: 445px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                /* 166.667% */
+                margin-top: 24px;
+            }
+
+            .inside-button {
+                width: 180px;
+                height: 53px;
+                background: #FCB72B;
+                color: #FFF;
+                text-align: center;
+                font-family: Space Mono;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px;
+                /* 166.667% */
+                margin-top: 40px;
+                border: 0;
+            }
+        }
+    }
+    .mein-form2 {
+        width: 1440px;
+        height: 445px;
+        background-color: #fff;
+        margin-top: 70px;
+        margin-left: px;
+
+
+
+        .something-inside2 {
+            width: 445px;
+            height: 313px;
+            background-color: #fff;
+            margin-top: -400px;
+            margin-left: 860px;
+
+            .inside-h2 {
+                width: 445px;
+                height: 96px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px
+            }
+
+            .inside-p2 {
+                width: 445px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                /* 166.667% */
+                margin-top: 24px;
+            }
+
+            .inside-button2 {
+                width: 180px;
+                height: 53px;
+                background: #FCB72B;
+                color: #FFF;
+                text-align: center;
+                font-family: Space Mono;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px;
+                /* 166.667% */
+                margin-top: 40px;
+                border: 0;
+            }
+        }
+    }
+    .mein-form {
+        width: 1440px;
+        height: 445px;
+        background-color: #fff;
+        margin-top: 945px;
+        margin-left: -1275px;
+
+        .picture-girl {
+            margin-top: 0;
+            margin-left: 700px;
+        }
+
+        .something-inside {
+            width: 445px;
+            height: 313px;
+            background-color: #fff;
+            margin-top: -380px;
+            margin-left: 165px;
+
+            .inside-h1 {
+                width: 445px;
+                height: 96px;
+                color: #495567;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.143px
+            }
+
+            .inside-p1 {
+                width: 445px;
+                color: #939CAA;
+                font-family: Lexend Deca;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                /* 166.667% */
+                margin-top: 24px;
+            }
+
+            .inside-button {
+                width: 180px;
+                height: 53px;
+                background: #FCB72B;
+                color: #FFF;
+                text-align: center;
+                font-family: Space Mono;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px;
+                /* 166.667% */
+                margin-top: 40px;
+                border: 0;
             }
         }
     }

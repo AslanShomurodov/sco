@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,8 @@ body {
 body .wrapper {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  height: 3648px;
   background-color: aqua;
 }
 body .wrapper .header-menu {
@@ -18,6 +21,7 @@ body .wrapper .header-menu {
   width: 1440px;
   height: 96px;
   background: #FFF;
+  margin-left: 159px;
 }
 body .wrapper .header-menu .scoot-img {
   position: relative;
@@ -67,11 +71,11 @@ body .wrapper .mein-hit {
   display: flex;
   justify-content: center;
 }
-body .wrapper .mein-hit .mein-img {
+body .wrapper .mein-hit .picture-element .mein-img {
   width: 1440px;
   height: 650px;
 }
-body .wrapper .mein-hit .mein-img .mein-h1 {
+body .wrapper .mein-hit .picture-element .mein-img .mein-h1 {
   width: 500px;
   color: #FFF;
   font-family: Space Mono;
@@ -81,7 +85,8 @@ body .wrapper .mein-hit .mein-img .mein-h1 {
   line-height: 56px;
   letter-spacing: -2.5px;
 }
-body .wrapper .mein-hit .mein-h1 {
+body .wrapper .mein-hit .picture-element .mein-h1 {
+  position: relative;
   width: 500px;
   color: #FFF;
   font-family: Space Mono;
@@ -90,4 +95,311 @@ body .wrapper .mein-hit .mein-h1 {
   font-weight: 700;
   line-height: 56px;
   letter-spacing: -2.5px;
+  margin-left: 165px;
+  margin-top: -453px;
+}
+body .wrapper .mein-hit .picture-element .line-img {
+  margin-top: 89px;
+}
+body .wrapper .mein-hit .picture-element .mein-h2 {
+  width: 405px;
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 260px;
+  margin-top: -55px;
+}
+body .wrapper .mein-hit .picture-element .line-right-img {
+  margin-left: 705px;
+  margin-top: -55px;
+}
+body .wrapper .mein-hit .picture-element .circle {
+  margin-top: -150px;
+  margin-left: 1253px;
+}
+body .wrapper .mein-hit .picture-element .mein-button {
+  position: relative;
+  padding: 14px 39px;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
+  background: #FCB72B;
+  border: 0;
+  margin-left: -1180px;
+  margin-top: -100px;
+}
+body .wrapper .middle {
+  width: 1275px;
+  height: 291px;
+  background-color: #fff;
+  margin-top: 650px;
+  margin-left: -1603px;
+}
+body .wrapper .middle .line {
+  margin-top: 48px;
+  width: 974px;
+  height: 15px;
+  background-color: #939CAA;
+}
+body .wrapper .middle .phone-img {
+  margin-left: 145px;
+  margin-top: -50px;
+}
+body .wrapper .middle .motorcycle-img {
+  margin-left: 315px;
+  margin-top: -50px;
+}
+body .wrapper .middle .delivery-img {
+  margin-left: 305px;
+  margin-top: -50px;
+}
+body .wrapper .middle .written-form1 {
+  width: 350px;
+  height: 155px;
+  background-color: transparent;
+  margin-left: 145px;
+  margin-top: 20px;
+}
+body .wrapper .middle .written-form1 .written-h1 {
+  width: 350px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+body .wrapper .middle .written-form1 .written-p1 {
+  width: 350px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 27px;
+}
+body .wrapper .middle .written-form2 {
+  width: 350px;
+  height: 155px;
+  background-color: transparent;
+  margin-left: 555px;
+  margin-top: -155px;
+}
+body .wrapper .middle .written-form2 .written-h2 {
+  width: 350px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+body .wrapper .middle .written-form2 .written-p2 {
+  width: 350px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 27px;
+}
+body .wrapper .middle .written-form3 {
+  width: 350px;
+  height: 155px;
+  background-color: transparent;
+  margin-left: 970px;
+  margin-top: -155px;
+}
+body .wrapper .middle .written-form3 .written-h3 {
+  width: 350px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+body .wrapper .middle .written-form3 .written-p3 {
+  width: 350px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 27px;
+}
+body .mein-form {
+  width: 1440px;
+  height: 445px;
+  background-color: #fff;
+  margin-top: 945px;
+  margin-left: -1275px;
+}
+body .mein-form .picture-girl {
+  margin-top: 0;
+  margin-left: 700px;
+}
+body .mein-form .something-inside {
+  width: 445px;
+  height: 313px;
+  background-color: #fff;
+  margin-top: -380px;
+  margin-left: 165px;
+}
+body .mein-form .something-inside .inside-h1 {
+  width: 445px;
+  height: 96px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+body .mein-form .something-inside .inside-p1 {
+  width: 445px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 166.667% */
+  margin-top: 24px;
+}
+body .mein-form .something-inside .inside-button {
+  width: 180px;
+  height: 53px;
+  background: #FCB72B;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
+  margin-top: 40px;
+  border: 0;
+}
+body .mein-form2 {
+  width: 1440px;
+  height: 445px;
+  background-color: #fff;
+  margin-top: 70px;
+  margin-left: px;
+}
+body .mein-form2 .something-inside2 {
+  width: 445px;
+  height: 313px;
+  background-color: #fff;
+  margin-top: -400px;
+  margin-left: 860px;
+}
+body .mein-form2 .something-inside2 .inside-h2 {
+  width: 445px;
+  height: 96px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+body .mein-form2 .something-inside2 .inside-p2 {
+  width: 445px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 166.667% */
+  margin-top: 24px;
+}
+body .mein-form2 .something-inside2 .inside-button2 {
+  width: 180px;
+  height: 53px;
+  background: #FCB72B;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
+  margin-top: 40px;
+  border: 0;
+}
+body .mein-form {
+  width: 1440px;
+  height: 445px;
+  background-color: #fff;
+  margin-top: 945px;
+  margin-left: -1275px;
+}
+body .mein-form .picture-girl {
+  margin-top: 0;
+  margin-left: 700px;
+}
+body .mein-form .something-inside {
+  width: 445px;
+  height: 313px;
+  background-color: #fff;
+  margin-top: -380px;
+  margin-left: 165px;
+}
+body .mein-form .something-inside .inside-h1 {
+  width: 445px;
+  height: 96px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+body .mein-form .something-inside .inside-p1 {
+  width: 445px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 166.667% */
+  margin-top: 24px;
+}
+body .mein-form .something-inside .inside-button {
+  width: 180px;
+  height: 53px;
+  background: #FCB72B;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
+  margin-top: 40px;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */
